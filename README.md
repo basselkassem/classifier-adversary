@@ -2,8 +2,8 @@
 This notebook is inspired by the paper: [Decorrelated Jet Substructure Tagging using Adversarial Neural Networks](https://arxiv.org/abs/1703.03507).
 
 We illustrate how to use the Adversarial Neural Network to decouple a classifier response from the values of its input.
-In other words, we are interested in making the output of a classifier not dependent on the value distribution of the input. 
-This property is useful to reduce the uncertainty about the effect of the input's features on the classifier's output.
+In other words, we are interested in making the output of a classifier independent from the value distribution of the input. 
+This property is useful to reduce the uncertainty about the effect of one feature on the classifier's output.
 Although this approach reduces the discriminative power of the classifier, but it keeps a relatively good performance.
 
 **Problem describtion:**
